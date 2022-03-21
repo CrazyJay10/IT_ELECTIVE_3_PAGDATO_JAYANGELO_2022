@@ -1,0 +1,71 @@
+body{
+ margin: 0;
+ padding: 0;
+ background: url(bg.jpg) repeat;
+ background-size: cover;
+ color: white;
+ font-family: Helvetica;
+}
+#header {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#menu {
+    text-align: center;
+}
+#menu .menuitem {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+a:link{
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: gray;
+}
+
+#leftmenu_main h3{
+    margin-left: 40px;
+    color: aqua;
+    text-decoration: none;
+}
+
+#leftmenu_main ul{
+    margin-left: 40px;
+    background-color: transparent;
+    text-decoration: underline;
+    color: aqua;
+}
+
+#content_main {
+    margin: 40px;
+    width: 800px;
+    text-align: justify;
+}
+
+#footer {
+    background: url(footer.jpg);
+    height: 80px;  
+    padding-top: 20px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer a{
+    color: rgb(0, 255, 106);
+}
